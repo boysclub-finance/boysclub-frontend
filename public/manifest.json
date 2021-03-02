@@ -1,0 +1,16 @@
+{
+  "short_name": "BoysClub Finance",
+  "name": "BoysClub Finance",
+  "description": "Farm CAKE with Pancake LP Tokens",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "128x128"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#000000"
+}
