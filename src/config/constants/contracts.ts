@@ -11,6 +11,10 @@ export default {
     56: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
     97: '',
   },
+  doge: {
+    56: '0xbA2aE424d960c26247Dd6c32edC70B295c744C43',
+    97: '',
+  },
   lottery: {
     56: '',
     97: '',

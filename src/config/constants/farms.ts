@@ -47,8 +47,8 @@ const farms: FarmConfig[] = [
       97: '',
       56: '0xc4BD10b2DC5F581d13F5ea109222a99a22364308',
     },
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: contracts.wbnb,
+    quoteTokenSymbol: QuoteToken.DOGE,
+    quoteTokenAdresses: contracts.doge,
   },
   {
     pid: 2,
