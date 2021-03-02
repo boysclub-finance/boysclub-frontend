@@ -34,22 +34,6 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
   },
-    {
-    pid: 4,
-    risk: 5,
-    lpSymbol: 'PEPE2-DOGE LP',
-    lpAddresses: {
-      97: '',
-      56: '0x65A3F02915E5eaf1E42972d4929c9cDbb8AFdA03',
-    },
-    tokenSymbol: 'PEPE2',
-    tokenAddresses: {
-      97: '',
-      56: '0xc4BD10b2DC5F581d13F5ea109222a99a22364308',
-    },
-    quoteTokenSymbol: QuoteToken.DOGE,
-    quoteTokenAdresses: contracts.doge,
-  },
   {
     pid: 2,
     risk: 3,
@@ -66,7 +50,22 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
-
+  {
+    pid: 4,
+    risk: 5,
+    lpSymbol: 'PEPE2-DOGE LP',
+    lpAddresses: {
+      97: '',
+      56: '0x65A3F02915E5eaf1E42972d4929c9cDbb8AFdA03',
+    },
+    tokenSymbol: 'PEPE2',
+    tokenAddresses: {
+      97: '',
+      56: '0xc4BD10b2DC5F581d13F5ea109222a99a22364308',
+    },
+    quoteTokenSymbol: QuoteToken.DOGE,
+    quoteTokenAdresses: contracts.doge,
+  },
   {
     pid: 3,
     risk: 5,
