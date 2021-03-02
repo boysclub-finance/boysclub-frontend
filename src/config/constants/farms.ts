@@ -5,15 +5,15 @@ const farms: FarmConfig[] = [
   {
     pid: 0,
     risk: 5,
-    lpSymbol: 'PEPE-BUSD LP',
+    lpSymbol: 'PEPE2-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0xe4D11580163FD0dA0b1b5Cf8b8Ac370F97A4CcAC',
+      56: '0x7346F7adc44d90604C7f3479Acff5069aB691C18',
     },
-    tokenSymbol: 'PEPE',
+    tokenSymbol: 'PEPE2',
     tokenAddresses: {
       97: '',
-      56: '0x83023E505F8946185d59a87B15E1F1589A3f6099',
+      56: '0xc4BD10b2DC5F581d13F5ea109222a99a22364308',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -21,15 +21,15 @@ const farms: FarmConfig[] = [
   {
     pid: 1,
     risk: 5,
-    lpSymbol: 'PEPE-BNB LP',
+    lpSymbol: 'PEPE2-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0xF1db77759e76c87c12f6EB5e6E9c8F5999A924D1',
+      56: '0xD466a0878d5f68D2D0f94CC971F91EEaB8eD7fD7',
     },
-    tokenSymbol: 'PEPE',
+    tokenSymbol: 'PEPE2',
     tokenAddresses: {
       97: '',
-      56: '0x83023E505F8946185d59a87B15E1F1589A3f6099',
+      56: '0xc4BD10b2DC5F581d13F5ea109222a99a22364308',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
@@ -55,15 +55,15 @@ const farms: FarmConfig[] = [
     pid: 3,
     risk: 5,
     isTokenOnly: true,
-    lpSymbol: 'PEPE',
+    lpSymbol: 'PEPE2',
     lpAddresses: {
       97: '',
-      56: '0xe4D11580163FD0dA0b1b5Cf8b8Ac370F97A4CcAC', // PEPE-BUSD LP
+      56: '0x7346F7adc44d90604C7f3479Acff5069aB691C18', // PEPE2-BUSD LP
     },
-    tokenSymbol: 'PEPE',
+    tokenSymbol: 'PEPE2',
     tokenAddresses: {
       97: '',
-      56: '0x83023E505F8946185d59a87B15E1F1589A3f6099',
+      56: '0xc4BD10b2DC5F581d13F5ea109222a99a22364308',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
